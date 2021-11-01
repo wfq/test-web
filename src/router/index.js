@@ -3,6 +3,10 @@ import { createRouter, createMemoryHistory } from "vue-router";
 
 const routes = [
     {
+        path: '/',
+        redirect: '/bank'
+    },
+    {
         path: '/bank',
         component: () => import("../pages/bank/index.vue")
     }

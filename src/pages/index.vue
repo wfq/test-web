@@ -6,7 +6,7 @@ import Header from '../components/Header.vue';
 <template>
     <el-container>
         <Aside></Aside>
-        <el-container>
+        <el-container direction="vertical">
             <Header></Header>
             <el-main>
                 <router-view></router-view>
